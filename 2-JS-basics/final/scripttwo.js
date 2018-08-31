@@ -52,3 +52,16 @@ function factorial(number){
     return number * factorial(number - 1);
   }
 }
+
+console.log(factorial(5));
+
+//typeof operator
+console.log(typeof markOlder);
+console.log(typeof ageJohn);
+
+var now = 2018;
+var yobJohn = 1989;
+var majorityAge = 18;
+
+var isMajorityAge = now - yobJohn >= majorityAge;
+console.log(isMajorityAge);
