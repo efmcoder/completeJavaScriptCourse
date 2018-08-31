@@ -65,3 +65,25 @@ var majorityAge = 18;
 
 var isMajorityAge = now - yobJohn >= majorityAge;
 console.log(isMajorityAge);
+
+//If/else statements
+var firstName = "Dave";
+var civilStatus = "single";
+
+if (civilStatus === "married")
+  {
+    console.log(firstName + " is married");
+  } else
+    {
+      console.log(firstName + " is not married");
+    };
+
+
+var isMarried = true;
+if (isMarried)
+  {
+    console.log(firstName + " is married");
+  } else
+    {
+      console.log(firstName + " is not married");
+    };
