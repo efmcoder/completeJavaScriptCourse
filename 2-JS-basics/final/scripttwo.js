@@ -125,3 +125,21 @@ function calculateAge(birthYear){
   return inputYear - birthYear;
 }
 console.log(calculateAge(1998));
+
+//function expressions
+var whatYouDo = function(job, firstName){
+  switch (job) {
+    case "teacher":
+      return firstName + " teaches kids to code";
+    case "driver":
+      return firstName + " drives an Uber in Sweden";
+    case "diver":
+      return firstName + " dives for Pearls in the Carribean";
+    default:
+      return firstName + " sits idle all day";
+  }
+}
+console.log(whatYouDo("teacher", "Cody"));
+console.log(whatYouDo("driver", "Saul"));
+console.log(whatYouDo("diver", "Pauline"));
+console.log(whatYouDo("retired", "Mark"));
