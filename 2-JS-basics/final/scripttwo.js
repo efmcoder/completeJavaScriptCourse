@@ -143,3 +143,10 @@ console.log(whatYouDo("teacher", "Cody"));
 console.log(whatYouDo("driver", "Saul"));
 console.log(whatYouDo("diver", "Pauline"));
 console.log(whatYouDo("retired", "Mark"));
+
+
+var names = ["John", "James", "Jane"];
+var years = new Array(1990, 1984, 1988);
+console.log(names);
+console.log(names.length);
+console.log(names[2]);
