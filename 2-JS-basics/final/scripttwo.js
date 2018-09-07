@@ -1,4 +1,4 @@
-console.log("Hello Dear! How are you doing?");
+/*console.log("Hello Dear! How are you doing?");
 
 var firstName = "John";
 console.log(firstName);
@@ -98,3 +98,30 @@ if (isMarried)
     } else{
       console.log(firstName + " is a man");
     }
+*/
+//FUNCTIONS
+/*function calculateAge(birthYear){
+  return 2018 - birthYear;
+}
+console.log(calculateAge(1998));
+
+var ageDuncan = calculateAge(1972);
+var ageJane = calculateAge(1983);
+var ageJunior = calculateAge(2007);
+console.log(ageDuncan, ageJane, ageJunior);
+
+function yearsUntilRetirement(year, firstName){
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+  console.log(firstName + " retires in " + retirement + " years")
+}
+yearsUntilRetirement(1972, "Duncan");
+yearsUntilRetirement(1948, "Mike");
+yearsUntilRetirement(1969, "Jane");
+*/
+
+var inputYear = 2018;
+function calculateAge(birthYear){
+  return inputYear - birthYear;
+}
+console.log(calculateAge(1998));
