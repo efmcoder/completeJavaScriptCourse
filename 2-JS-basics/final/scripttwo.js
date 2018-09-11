@@ -144,9 +144,16 @@ console.log(whatYouDo("driver", "Saul"));
 console.log(whatYouDo("diver", "Pauline"));
 console.log(whatYouDo("retired", "Mark"));
 
-
+//Initialize array
 var names = ["John", "James", "Jane"];
 var years = new Array(1990, 1984, 1988);
 console.log(names);
+
+//Manipulate array
 console.log(names.length);
 console.log(names[2]);
+names[1] = "Ben";
+names[5] = "Mary";
+names[4] = "Gina";
+names[names.length] = "Martin";
+console.log(names);
