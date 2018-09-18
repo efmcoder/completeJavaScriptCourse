@@ -157,3 +157,12 @@ names[5] = "Mary";
 names[4] = "Gina";
 names[names.length] = "Martin";
 console.log(names);
+
+//Array Different data types
+var me = ["Noah", "Kim", 1981, "teacher", false];
+
+me.push("blue"); //adds element to end
+me.unshift("Doctor"); //adds element to front
+me.pop(); //removes the last element
+me.shift(); //to remove the first element
+console.log(me);
