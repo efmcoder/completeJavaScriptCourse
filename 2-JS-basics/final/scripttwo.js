@@ -159,10 +159,17 @@ names[names.length] = "Martin";
 console.log(names);
 
 //Array Different data types
-var me = ["Noah", "Kim", 1981, "teacher", false];
+var me = ["Noah", "Kim", 1981, "designer", false];
 
 me.push("blue"); //adds element to end
 me.unshift("Doctor"); //adds element to front
-me.pop(); //removes the last element
-me.shift(); //to remove the first element
+//me.pop(); //removes the last element
+//me.shift(); //to remove the first element
 console.log(me);
+//index or returns position of argument in array
+console.log(me.indexOf(1981));
+console.log(me.indexOf(23)); //if argument does not exist, it will return -1
+
+var isDesigner = me.indexOf("designer") === -1 ? "John is NOT a designer":
+"John IS a designer";
+console.log(isDesigner);
