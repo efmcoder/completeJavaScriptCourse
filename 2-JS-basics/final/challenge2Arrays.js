@@ -4,7 +4,7 @@ function calculateTip(bill){
     var tip;
     if (bill < 50){
       tip = 0.2;
-    } else if (tip >=50 && bill < 200){
+    } else if (bill >= 50 && bill < 200){
       tip = 0.15;
     } else {
       tip = 0.1;
@@ -12,10 +12,12 @@ function calculateTip(bill){
     return tip * bill;
 }
 
-console.log("Your tip will be " + (calculateTip(85)) + " dollars");
+console.log("Your tip will be " + ((Math.round(calculateTip(124)))) + " dollars");
 
 var bills = [124, 48, 268];
-var tips = [calculateTip(bills[0]),
-            calculateTip(bills[1]),
-            calculateTip(bills[2])];
+var tips = [Math.round(calculateTip(bills[0])),
+            Math.round(calculateTip(bills[1])),
+            Math.round(calculateTip(bills[2]))];
 console.log(tips);
+console.log(Math.round(124*.15));
+console.log(124*.15);
