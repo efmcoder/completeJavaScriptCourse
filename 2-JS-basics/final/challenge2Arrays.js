@@ -20,5 +20,15 @@ var tips = [Math.round(calculateTip(bills[0])),
             Math.round(calculateTip(bills[1])),
             Math.round(calculateTip(bills[2]))];
 console.log(tips);
+//Misc calculation
 console.log(Math.round(124*.15));
 console.log(124*.15);
+//end of misc calculation
+
+//Finding the tip amount plus the total bill
+var totalBill = [bills[0] + tips[0],
+                  bills[1] + tips[1],
+                  bills[2] + tips[2]];
+console.log(tips, totalBill);
+
+//A different way to do the above is to create empty arrays, then use the push method to add the amounts to the array
