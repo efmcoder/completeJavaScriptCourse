@@ -12,6 +12,7 @@ function calculateTip(bill){
     return tip * bill;
 }
 
+//I prefer to use Math.round otherwise the answers will be over 10 decimal places long
 console.log("Your tip will be " + ((Math.round(calculateTip(124)))) + " dollars");
 
 var bills = [124, 48, 268];
