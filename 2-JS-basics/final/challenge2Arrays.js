@@ -12,4 +12,10 @@ function calculateTip(bill){
     return tip * bill;
 }
 
-console.log("Your tip will be " + (calculateTip(300)) + " dollars");
+console.log("Your tip will be " + (calculateTip(85)) + " dollars");
+
+var bills = [124, 48, 268];
+var tips = [calculateTip(bills[0]),
+            calculateTip(bills[1]),
+            calculateTip(bills[2])];
+console.log(tips);
