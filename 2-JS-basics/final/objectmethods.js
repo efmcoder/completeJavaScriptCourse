@@ -16,6 +16,30 @@ var john =
       }
 };
 console.log(john.findAge(1980)); //john's birthday
-console.log(john.findAge(john.birthYear)); //so why not use john's birthday, we already created a name for it
+console.log("John is " + (john.findAge(john.birthYear)) + " years old"); //so why not use john's birthday, we already created a name for it
 
 //arrays also have methods, so arrays in JS are objects as well
+//only objects have Methods
+
+console.log("OPTION II: USE this SO WE STOP REPEATING OURSELVES");
+var sarah =
+{
+  firstName: "Sarah",
+  lastName: "Smith",
+  birthYear: 1992,
+  family: ["Janet", "Marco", "Bobby", "Emmma"],
+  job: "Doctor",
+  isMarried: false,
+  findAge: function()
+      {
+        return 2018 - this.birthYear;
+      }
+};
+console.log("Sarah is " + (sarah.findAge()) + " years old");
+//how do we prevent stupid errors like entering a birth year that's after the year we want to calculate the age for?
+
+console.log("OPTION III: CREATE A VARIABLE")
+var age = sarah.findAge();
+console.log(age);
+
+console.log("OPTION IV: SEE OJECTMTHD2")
