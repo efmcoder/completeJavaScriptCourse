@@ -29,3 +29,13 @@ console.log(me.job = "trucker");
 me.job = "model"; //using dot notation or
 me["isMarried"] = false; //using brackets
 console.log(me);
+
+//Adding a new object. Instead of using the {} you can use
+// new Object() to create an object.
+//Question: can we do this all the time instead of ever using {} ??
+
+var jane = new Object();
+jane.firstName = "Jane"; //using dot notation
+jane.birthYear = 1970; //using dot notation
+jane["lastName"] = "Smith"; //using brackets
+console.log(jane);
