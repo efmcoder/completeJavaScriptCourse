@@ -47,7 +47,7 @@ var brother = {
   job: "Engineer",
 
 //ii) add age to brother OBJECT. First create a function
-findAge function(){
+findAge: function(){
   this.age = 2018 - this.birthYear;
 }
 }
