@@ -40,16 +40,16 @@ console.log(me);
 
 console.log("PART IV: 24 HOURS LATER, LET'S SEE IF I REMEMBER HOW TO DO THIS")
 //i) create an object {}
-var brother = {
-  firstName : "James",
-  lastName: "Noah",
-  birthYear: 1982,
+var me = {
+  firstName : "Drake",
+  lastName: "Wallace",
+  birthYear: 1942,
   job: "Engineer",
 
-//ii) add age to brother OBJECT. First create a function
+//ii) add age to me OBJECT. First create a function
 findAge: function(){
   this.age = 2018 - this.birthYear;
 }
 }
-brother.findAge();
-console.log(brother);
+me.findAge();
+console.log(me);
